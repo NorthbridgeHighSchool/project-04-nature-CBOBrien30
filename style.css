@@ -1,0 +1,15 @@
+nav ul{
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.sublist{
+  flex-direction: column;
+  position: absolute;
+  display: none;
+  margin-top: 20px;
+}
+.sublist li{
+  margin-left: 0;
+}
