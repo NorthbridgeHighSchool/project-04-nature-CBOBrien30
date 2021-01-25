@@ -24,8 +24,8 @@ nav li{
   display: flex;
 }
 nav a:link{
-  background-color: rgb(187, 221, 241);
-  color: rgb(47, 89, 128);
+  background-color: rgb(156, 191, 236);
+  color: rgb(29, 82, 131);
   padding: 12px;
 }
 nav a:visited{
@@ -44,8 +44,8 @@ nav a.current{
   padding: 12px;
 }
 nav a:active{
-  background-color: rgb(241, 207, 188);
-  color: rgb(165, 26, 26);
+  background-color: rgb(237, 241, 188);
+  color: rgb(199, 117, 11);
   padding: 12px;
 }
 .sublist a:link{
@@ -54,8 +54,8 @@ nav a:active{
   padding: 12px;
 }
 .sublist a:visited{
-  background-color: rgb(188, 241, 212);
-  color: rgb(29, 167, 121);
+  background-color: rgb(188, 237, 241);
+  color: rgb(29, 167, 167);
   padding: 12px;
 }
 .sublist a:hover{
@@ -82,7 +82,7 @@ html{
   background-size: cover;
 }
 .textblock{
-  background-color: rgba(255, 255, 255, 0.699);
+  background-color: rgba(219, 219, 219, 0.699);
   color: rgb(12, 13, 80);
   text-align: justify;
 }
@@ -97,12 +97,23 @@ h2{
   font-weight: 500;
   font-size: 15pt;
 }
-img{
+.contrast odd{
+  filter: contrast(140%); 
+}
+.odd{
   float: left;
-  margin-right: 15px;
-  border: 4px solid rgb(7, 7, 7);
+  margin-right: 10px;
+  border: 4px solid rgb(50, 85, 65);
+  border-radius: 50%;
   max-width: 300px;
 }
-.contrast{
-  filter: contrast(140%); 
+img:hover{
+  transform: scaleX(-1);
+}
+.even{
+  float: right;
+  margin-left: 10px;
+  border: 4px solid rgb(15, 23, 95);
+  border-radius: 50%;
+  max-width: 300px;
 }
