@@ -97,13 +97,13 @@ h2{
   font-weight: 500;
   font-size: 15pt;
 }
-.contrast odd{
-  filter: contrast(140%); 
+.contrast{
+  filter: contrast(130%); 
 }
 .odd{
   float: left;
   margin-right: 10px;
-  border: 4px solid rgb(50, 85, 65);
+  border: 4px solid rgb(15, 23, 95);
   border-radius: 50%;
   max-width: 300px;
 }
@@ -113,7 +113,7 @@ img:hover{
 .even{
   float: right;
   margin-left: 10px;
-  border: 4px solid rgb(15, 23, 95);
+  border: 4px solid rgb(50, 85, 65);
   border-radius: 50%;
   max-width: 300px;
 }
